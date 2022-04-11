@@ -23,3 +23,29 @@
   - [TLS 1.3](https://github.com/libp2p/specs/blob/master/tls/tls.md)
 
 ## TLS 1.3
+- Allows for the use of several algorithms for signing:
+  - RSA
+  - ECDSA
+  - Ed25519
+  - Secp256k1
+  - etc
+- TLS Allows for use of many encryption algorithms:
+  - Camellia
+  - ARIA
+  - AES
+  - etc
+- TLS 1.3 limits to only 5 cipher suites 
+  - TLS_AES_128_GCM_SHA256
+  - TLS_AES_256_GCM_SHA384
+  - TLS_CHACHA20_POLY1305_SHA256
+  - TLS_AES_128_CCM_SHA256
+  - TLS_AES_128_CCM_8_SHA256
+- Extensibility allows for implementation of post-quantum algorithms
+  - AWS is leveraging [post-quantum s2n](https://github.com/aws/s2n-tls/tree/main/pq-crypto) 
+  - Perhaps even [WolfSSL](https://www.wolfssl.com/hybrid-post-quantum-groups-tls-1-3/)
+
+- Padding
+  - Generally applies PKCS#7 padding   
+
+
+
