@@ -20,7 +20,7 @@
   -  Latency or broken protocols - In the lab on the Linux boxes
 -  Discuss potential for secure intranetworking in areas that require a heightened security
   -  What attacks does this prevent
-    -  Rogue devices sniffing netowrk traffic
+    -  Rogue devices sniffing network traffic
     -  NTLM Relay attacks
     -  Anything that requires capturing an handshake
     -  MitM in general
