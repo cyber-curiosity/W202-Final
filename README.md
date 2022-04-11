@@ -15,6 +15,7 @@
   -  https://blog.ipfs.io/2020-08-07-deprecating-secio/ - Explains why they use the current Noise Framework and TLS 1.3
   -  https://github.com/libp2p/specs/tree/master/tls - Links to TLS implementation information
   -  https://github.com/libp2p/specs/tree/master/noise - Link to Noise Secure Channel Framework implementation information
+  -  Perhaps the implication that it's support for TLS 1.3 could allow it to be quantum resistant by leveraging libraries such as  WolfSSL using NTRU
 -  Investigate the effects of the traffic encryption 
   -  Latency or broken protocols - In the lab on the Linux boxes
 -  Discuss potential for secure intranetworking in areas that require a heightened security
@@ -24,3 +25,14 @@
     -  Anything that requires capturing an handshake
     -  MitM in general
   -  Does pose its own risks - https://docs.libp2p.io/concepts/security-considerations/    
+-  Perhaps even looking at the benefits of Peer-to-Peer netowkring on IoT and how this could increase security - https://github.com/libp2p/specs/blob/master/ROADMAP.md#%F0%9F%92%A1-libp2p-in-iot
+-  Look at influence on cryptocurrency - https://www.parity.io/blog/why-libp2p
+
+
+It's not a direct trnaslation, but it is similar to this prompt from the project's list: 
+
+- *Hybrid DHEC and PQ Key Exchange:*
+
+  *Research an experimental library that does hybrid DHEC and PQ asymmetric key exchange and/or create a 
+  simple jupyter notebook of your own to demonstrate and explain the advantages and disadvantages of doing 
+  it both ways.*
