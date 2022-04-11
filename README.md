@@ -22,5 +22,5 @@
     -  Rogue devices sniffing netowrk traffic
     -  NTLM Relay attacks
     -  Anything that requires capturing an handshake
-    -  MitM in gneral
+    -  MitM in general
   -  Does pose its own risks - https://docs.libp2p.io/concepts/security-considerations/    
