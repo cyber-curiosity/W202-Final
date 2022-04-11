@@ -29,7 +29,7 @@
 -  Look at influence on cryptocurrency - https://www.parity.io/blog/why-libp2p
 
 
-It's not a direct trnaslation, but it is similar to this prompt from the project's list: 
+It's not a direct correlation, but it is similar to this prompt from the project's list: 
 
 - *Hybrid DHEC and PQ Key Exchange:*
 
