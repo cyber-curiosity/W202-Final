@@ -6,7 +6,7 @@
   - Meant to be used as a lightweight vpn, but can serve the function we need
   - Link: https://github.com/hyprspace/hyprspace
 - I've built a lab for testing - Terraform script attached
-  - See lab_build.txt for instructions
+  - See LabSetup.md for instructions
 
 # Ideas Moving Forward
 - Focus on the distributed nature of the network
