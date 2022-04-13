@@ -47,12 +47,17 @@
 - Padding
   - Generally applies PKCS#7 padding   
 
-
+**From the Documentation**
 // We want nodes without AES hardware (e.g. ARM) support to always use ChaCha.
+
 // Only if both nodes have AES hardware support (e.g. x86), AES should be used.
+
 // x86->x86: AES, ARM->x86: ChaCha, x86->ARM: ChaCha and ARM->ARM: Chacha
+
 // This function returns true if we don't have AES hardware support, and false otherwise.
+
 // Thus, ARM servers will always use their own cipher suite preferences (ChaCha first),
+
 // and x86 servers will aways use the client's cipher suite preferences.
 
 
