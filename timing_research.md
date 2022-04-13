@@ -22,6 +22,12 @@ yes | 0.285137 | 0.291
 yes | 0.319107 | 0.283
 yes | 0.281838 | 0.278
 
+Encrypted | Curl | wget
+:---: | :---: | :---:
+no | 0.089561 | 0.103
+yes | 0.089561 | 0.103
+
+
 ## 100MB File Transfer
 Encrypted | Curl | wget
 :---: | :---: | :---:
