@@ -94,3 +94,6 @@ Encrypted | Curl | wget
 no | 9.392567 | 14.1210
 yes | 26.34798 | 25.6216
 increase | 2.805194 | 1.814432
+
+## Average Increase
+Time required to complete a task increased by a factor of 2.796765
