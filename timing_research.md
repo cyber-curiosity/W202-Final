@@ -25,9 +25,13 @@ yes | 0.281838 | 0.278
 **Averages**
 Encrypted | Curl | wget
 :---: | :---: | :---:
-no | 0.087648 | 0.1041
-yes | 0.304090 | 0.2875
-increase | 3.469445 | 2.761767
+no | 0.087648s | 0.1041s
+yes | 0.304090s | 0.2875s
+---
+Protocol | increase factor
+:---: | :---: | 
+curl | 3.469445 
+wget | 2.761767
 
 
 ## 100MB File Transfer
@@ -58,9 +62,14 @@ yes | 2.653593 | 2.349
 **Averages**
 Encrypted | Curl | wget
 :---: | :---: | :---:
-no | 0.841123 | 0.8493
-yes | 2.509939 | 2.5018
-increase | 2.984033 | 2.9457200
+no | 0.841123s | 0.8493s
+yes | 2.509939s | 2.5018s
+
+---
+Protocol | increase factor
+:---: | :---: | 
+curl | 2.984033
+wget | 2.945720
 
 
 ## 1GB File Transfer
@@ -91,9 +100,14 @@ yes | 26.665248 | 24.733
 **Averages**
 Encrypted | Curl | wget
 :---: | :---: | :---:
-no | 9.392567 | 14.1210
-yes | 26.34798 | 25.6216
-increase | 2.805194 | 1.814432
+no | 9.392567s | 14.1210s
+yes | 26.34798s | 25.6216s
+
+---
+Protocol | increase factor
+:---: | :---: | 
+curl | 2.805194
+wget | 1.814432
 
 ## Average Increase
 Time required to complete a task increased by a factor of 2.796765
